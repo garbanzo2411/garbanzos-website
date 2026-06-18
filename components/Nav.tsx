@@ -15,11 +15,22 @@ export default function Nav() {
       initial={{ opacity: 0, y: -10 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7, delay: 2.0, ease: "easeOut" }}
-      className="fixed top-6 left-1/2 -translate-x-1/2 z-10 flex items-center gap-9
+      className="fixed top-6 inset-x-0 mx-auto w-fit z-10 flex items-center gap-9
                  px-7 py-3 rounded-full border border-ink/10 bg-cream/70
                  backdrop-blur-md shadow-lg"
     >
-      <span className="font-display font-medium text-lg">JL</span>
+      <button
+        type="button"
+        onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+        aria-label="Scroll to top"
+        className="relative font-display font-medium text-lg text-left text-ink no-underline
+                   after:absolute after:left-0 after:-bottom-1 after:h-[2px] after:w-0
+                   after:bg-accent after:transition-all after:duration-200
+                   hover:after:w-full focus-visible:after:w-full
+                   focus-visible:outline-2 focus-visible:outline-accent focus-visible:outline-offset-4 rounded-sm"
+      >
+        JL
+      </button>
       <ul className="flex gap-7 list-none">
         {links.map((link) => (
           <li key={link.href}>
