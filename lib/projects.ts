@@ -26,20 +26,20 @@ export const projects: Project[] = [
         id: "002",
         title: "GRADiEnt",
         description:
-            "worked in a 6 man team to create a intelligent grading and feedback platform that uses AI to provide instant, detailed feedback on student submissions. The system helps educators save time on grading while providing students with consistent, comprehensive feedback to improve their learning outcomes.",
+            "Worked in a 6 man team to create a intelligent grading and feedback platform that uses AI to provide instant, detailed feedback on student submissions.",
         tags: ["React.js", "Tailwind CSS", "Python", "PostgreSQL"],
         // Screenshot placeholder
         screenshot: "/screenshots/gradientscreenshot.png",
         href: "https://github.com/garbanzo2411/gradient-se",
         accentFrom: "#5C6B73",
-        accentTo: "8FA3AA",
+        accentTo: "#8FA3AA",
     },
     {
         id: "003",
         title: "UNO",
         description:
             "Worked in a 5 man team to create a online multiplayer UNO game with game logic and a live chat.",
-        tags: ["React.js", "CSS", "SQL"],
+        tags: ["React.js", "CSS", "PostgreSQL"],
         // Screenshot placeholder
         screenshot: "/screenshots/gradientscreenshot.png",
         href: "https://github.com/garbanzo2411/Multiplayer-UNO-Gamblers",
