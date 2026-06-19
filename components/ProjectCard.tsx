@@ -80,12 +80,6 @@ export default function ProjectCard({ project }: { project: Project }) {
           }}
         />
 
-        {/* HP badge — top-right corner */}
-        <div className="absolute top-4 right-3.5 z-[4] text-right leading-none font-display">
-          <span className="text-[0.65rem] font-medium tracking-[0.04em] text-accent">HP</span>
-          <span className="block text-[1rem] font-medium text-accent">{project.hp}</span>
-        </div>
-
         {/* Screenshot */}
         <div className="mx-3.5 mt-3.5 rounded-[10px] overflow-hidden border border-ink/10 aspect-[16/10] bg-mountain relative">
           <Image
