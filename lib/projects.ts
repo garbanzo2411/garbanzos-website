@@ -46,4 +46,15 @@ export const projects: Project[] = [
         accentFrom: "#8C350F",
         accentTo: "#E2733C",
     },
+    {
+        id: "004",
+        title: "Job Tracking App",
+        description:
+            "A job tracking application I made to help me keep track of my job applications and interviews.",
+        tags: ["React.js", "CSS"],
+        screenshot: "/screenshots/jobtrackingapp.png",
+        href: "https://github.com/garbanzo2411/job-tracking-app",
+        accentFrom: "#0F172A",
+        accentTo: "#60A5FA",
+    }
 ];
