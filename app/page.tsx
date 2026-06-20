@@ -1,6 +1,7 @@
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -8,14 +9,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Projects />
-
-      {/* TODO: Skills section */}
-      <section
-        id="skills"
-        className="min-h-[50vh] flex items-center justify-center bg-cream font-display text-2xl text-ink/40"
-      >
-        Skills — coming soon
-      </section>
+      <Skills />
 
       {/* TODO: About section */}
       <section
