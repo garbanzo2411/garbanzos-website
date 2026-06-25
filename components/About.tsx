@@ -75,7 +75,6 @@ export default function About() {
                      border-4 border-[#F9F5EE] shadow-[0_12px_32px_rgba(43,38,34,0.14)]
                      overflow-hidden relative"
         >
-          {/* Swap the src below for your real photo, dropped into /public */}
           <Image
             src="/screenshots/aboutmesectionselfie.jpg"
             alt="Jacob Lazzarini"
