@@ -16,9 +16,7 @@ export default function Projects() {
         >
             {/* Section header */}
             <div className = "text-center mb-[72px]">
-                <p className = "text-[0.78rem] font-semibold tracking-[0.12rem] uppercase text-accent mb-2.5">
-                    Selected Works
-                </p>
+                
                 <h2 className = "font-display font-medium text-[clamp(2.4rem,5vw,3.6rem)] leading-[1.1] mb-2.5">
                     Projects
                 </h2>

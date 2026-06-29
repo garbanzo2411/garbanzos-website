@@ -15,9 +15,6 @@ export default function Resume() {
           viewport={{ once: true, amount: 0.6 }}
           transition={{ duration: 0.7 }}
         >
-          <p className="text-[0.78rem] font-semibold tracking-[0.12em] uppercase text-accent mb-2.5">
-            Let&rsquo;s build something
-          </p>
           <h2 className="font-display font-medium text-[clamp(2.4rem,5vw,3.6rem)] mb-2.5">
             Get In Touch
           </h2>

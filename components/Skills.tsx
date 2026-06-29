@@ -8,9 +8,6 @@ export default function Skills() {
   return (
     <section id="skills" className="py-[120px] px-6">
       <div className="text-center mb-16">
-        <p className="text-[0.78rem] font-semibold tracking-[0.12em] uppercase text-accent mb-2.5">
-          What I work with
-        </p>
         <h2 className="font-display font-medium text-[clamp(2.4rem,5vw,3.6rem)] mb-2.5">
           Skills
         </h2>

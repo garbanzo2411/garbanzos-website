@@ -41,9 +41,7 @@ export default function About() {
       </div>
 
       <div className="relative z-10 text-center mb-[72px]">
-        <p className="text-[0.78rem] font-semibold tracking-[0.12em] uppercase text-accent mb-2.5">
-          Get to know me
-        </p>
+        
         <h2 className="font-display font-medium text-[clamp(2.4rem,5vw,3.6rem)] mb-2.5">
           About Me
         </h2>
