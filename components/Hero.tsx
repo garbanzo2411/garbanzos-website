@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import SkylineIllustration from "@/components/SkylineIllustration";
-import ScrollCue from "@/choreography/ScrollCue";
+import ScrollCue from "@/components/ScrollCue";
 
 export default function Hero() {
   return (
@@ -26,12 +26,9 @@ export default function Hero() {
         transition={{ duration: 0.8, delay: 1.95, ease: [0.2, 0.8, 0.2, 1] }}
       >
         <p className="text-base text-ink/75 mb-1.5">
-          Aspiring software engineer
+          Aspiring Software Engineer
         </p>
-        <svg
-          className="w-[220px] h-3.5 block mx-auto"
-          viewBox="0 0 220 14"
-        >
+        <svg className="w-[220px] h-3.5 block mx-auto" viewBox="0 0 220 14">
           <motion.path
             d="M2,7 Q20,0 38,7 T74,7 T110,7 T146,7 T182,7 T218,7"
             fill="none"

@@ -21,7 +21,7 @@ export default function Nav() {
       initial={{ opacity: 0, y: -10, x: "-50%" }}
       animate={{ opacity: 1, y: 0, x: "-50%" }}
       transition={{ duration: 0.7, delay: 2.0, ease: "easeOut" }}
-      className="fixed top-6 left-1/2 z-10 flex w-fit items-center gap-9
+      className="fixed top-6 left-1/2 z-50 flex w-fit items-center gap-9
                  px-7 py-3 rounded-full border border-ink/10 bg-cream/70
                  backdrop-blur-md shadow-lg"
     >

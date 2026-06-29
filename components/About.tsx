@@ -16,7 +16,7 @@ const interests = ["⚽ Soccer", "🏈 Football", "✈️ Travel", "🎮 Gaming"
 
 export default function About() {
   return (
-    <section id="about" className="relative overflow-hidden py-[120px] px-6 bg-cream-deep">
+    <section id="about" className="relative z-0 overflow-hidden py-[120px] px-6 bg-cream-deep">
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="pointer-events-auto">
           <Sticker className="top-[6%] left-[3%]" rotation={-12} floatDuration={4.2} floatRange={9} label="Football">
