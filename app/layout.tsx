@@ -1,12 +1,11 @@
 import type { Metadata } from "next";
-import { Fraunces, Inter } from "next/font/google";
+import { Sora, Inter } from "next/font/google";
 import "./globals.css";
 
-const fraunces = Fraunces({
+const sora = Sora({
     subsets: ["latin"],
-    weight: ["300", "500"],
-    style: ["normal", "italic"],
-    variable: "--font-fraunces"
+    weight: ["400", "500", "600", "700"],
+    variable: "--font-sora"
 });
 
 const inter = Inter ({
@@ -27,7 +26,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={`${fraunces.variable} ${inter.variable} font-sans`}>
+            <body className={`${sora.variable} ${inter.variable} font-sans`}>
                 {children}
             </body>
         </html>

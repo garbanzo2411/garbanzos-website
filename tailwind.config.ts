@@ -15,7 +15,7 @@ const config: Config = {
         mountain: "#5C6B73", // slate blue-gray used in the illustration
       },
       fontFamily: {
-        display: ["var(--font-fraunces)", "serif"],
+        display: ["var(--font-sora)", "sans-serif"],
         sans: ["var(--font-inter)", "sans-serif"],
       },
     },
