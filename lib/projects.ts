@@ -38,7 +38,7 @@ export const projects: Project[] = [
         description:
             "Worked in a 5 man team to create a online multiplayer UNO game with game logic and a live chat.",
         tags: ["React.js", "CSS", "PostgreSQL"],
-        screenshot: "/screenshots/gradientscreenshot.png",
+        screenshot: "/screenshots/UNO_Logo.svg.png",
         href: "https://github.com/garbanzo2411/Multiplayer-UNO-Gamblers",
         accentFrom: "#8C350F",
         accentTo: "#E2733C",
