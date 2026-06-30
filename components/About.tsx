@@ -12,8 +12,6 @@ import {
   ControllerSticker,
 } from "@/components/stickers/StickerIcons";
 
-const interests = ["⚽ Soccer", "🏈 Football", "✈️ Travel", "🎮 Gaming", "🃏 Card collecting"];
-
 export default function About() {
   return (
     <section id="about" className="relative z-0 overflow-hidden py-[120px] px-6 bg-cream-deep">
@@ -95,19 +93,6 @@ export default function About() {
             I enjoy designing fun user interfaces, creating modern websites, and turning ideas into projects that feel polished and easy to use.
             Outside of coding, I&rsquo;m into football and soccer, aviation and travel, playing video games, and collecting Pokemon cards.
           </p>
-          <p className="text-[0.78rem] font-semibold tracking-[0.1em] uppercase text-accent mb-3">
-            A few things I like
-          </p>
-          <div className="flex flex-wrap gap-2">
-            {interests.map((tag) => (
-              <span
-                key={tag}
-                className="text-[0.84rem] font-medium bg-[#F9F5EE] border-[1.5px] border-ink/[0.12] px-3.5 py-1.5 rounded-full"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
         </motion.div>
       </div>
     </section>
